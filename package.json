@@ -1,0 +1,20 @@
+{
+  "name": "pw-poll-widget-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "parcel:build": "npx parcel build src/index.html --public-url ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.1"
+  }
+}
